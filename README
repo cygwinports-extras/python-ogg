@@ -1,0 +1,69 @@
+python-ogg
+-------------------------------------------
+Official Python bindings for libogg.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libogg0-1.1.2-1
+  python-2.5.1-1
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gcc-core-3.4.4-3
+  python-2.5.1-1
+
+Canonical homepage:
+  http://ekyo.nerim.net/software/pyogg/index.html
+
+Canonical download:
+  http://ekyo.nerim.net/software/pyogg/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-ogg-1.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-ogg-1.3-X.cygport all
+
+This will create:
+  /usr/src/python-ogg-1.3-X-src.tar.bz2
+  /usr/src/python-ogg-1.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/include/python2.5/pyogg/pyogg.h
+  /usr/lib/python2.5/site-packages/ogg/__init__.py
+  /usr/lib/python2.5/site-packages/ogg/__init__.pyc
+  /usr/lib/python2.5/site-packages/ogg/__init__.pyo
+  /usr/lib/python2.5/site-packages/ogg/_ogg.dll
+  /usr/lib/python2.5/site-packages/pyogg-1.3-py2.5.egg-info
+  /usr/share/doc/Cygwin/python-ogg-1.3.README
+  /usr/share/doc/python-ogg-1.3/AUTHORS
+  /usr/share/doc/python-ogg-1.3/COPYING
+  /usr/share/doc/python-ogg-1.3/ChangeLog
+  /usr/share/doc/python-ogg-1.3/NEWS
+  /usr/share/doc/python-ogg-1.3/README
+
+------------------
+
+Port Notes:
+
+----- version 1.3-3 -----
+Rebuilt for python-2.5.
+
+----- version 1.3-2 -----
+Rebuilt for python-2.4.
+
+----- version 1.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
