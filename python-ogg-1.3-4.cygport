@@ -1,3 +1,4 @@
+ORIG_PN="pyogg"
 inherit distutils
 
 DESCRIPTION="Python libogg bindings"
