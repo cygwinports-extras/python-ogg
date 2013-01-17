@@ -1,7 +1,12 @@
 ORIG_PN="pyogg"
 inherit distutils
 
-DESCRIPTION="Python libogg bindings"
+NAME="python-ogg"
+VERSION=1.3
+RELEASE=6
+CATEGORY="Python"
+SUMMARY="Python bindings for libogg"
+DESCRIPTION="Official Python bindings for libogg"
 HOMEPAGE="http://ekyo.nerim.net/software/pyogg/index.html"
 SRC_URI="http://ekyo.nerim.net/software/pyogg/${ORIG_PN}-${PV}.tar.gz"
 

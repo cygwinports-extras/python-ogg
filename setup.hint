@@ -1,4 +1,0 @@
-category: Python Audio
-requires: libgcc1 libogg0 python
-sdesc: "Python bindings for libogg"
-ldesc: "Official Python bindings for libogg"
